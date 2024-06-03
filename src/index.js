@@ -1,7 +1,7 @@
 const dotenv = require('dotenv')
 const express = require('express');
 const { identifyHandler } = require('./identifyHandler');
-const { init: db_init } = require('./db');
+const { init: db_init } = require('./db/init');
 const app = express()
 
 dotenv.config()
